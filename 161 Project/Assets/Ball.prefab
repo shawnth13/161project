@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7632982498705805605}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.3469586, y: 1.0306433, z: -0.08831994}
+  m_LocalPosition: {x: 10.3, y: 0, z: 0}
   m_LocalScale: {x: 0.4, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -94,7 +94,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 7632982498705805605}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1ff843ca188f4164cbe161b88efa315b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -136,7 +136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7632982498907127425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.9530416, y: -1.0306433, z: 0.08831994}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -161,6 +161,7 @@ MonoBehaviour:
   ballObject: {fileID: 7632982498986706233}
   leftWall: {fileID: 7632982499812963442}
   rightWall: {fileID: 7632982498705805607}
+  ballRigidbody: {fileID: 7632982498986706232}
 --- !u!1 &7632982498986706239
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7632982498986706239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.0697937, y: -0.3412341, z: -0.08831994}
+  m_LocalPosition: {x: 9.33, y: 1.04, z: -0.08831994}
   m_LocalScale: {x: 0.025, y: 0.025, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -256,7 +257,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 7632982498986706239}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f026f5273729023499e204a5d980ff77, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -310,7 +311,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7632982499812963440}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.253042, y: 1.0306433, z: -0.08831994}
+  m_LocalPosition: {x: -10.3, y: 0, z: 0}
   m_LocalScale: {x: 0.4, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -378,7 +379,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 7632982499812963440}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1ff843ca188f4164cbe161b88efa315b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
